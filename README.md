@@ -21,7 +21,7 @@ https://jazzy-gelato-30bcb7.netlify.app/
 
 Tech Stack
 - React (Vite)
-- JavaScript (ES6+)
+- JavaScript 
 - CSS
 - Netlify (for deployment)
 
@@ -30,7 +30,7 @@ Tech Stack
 Setup Steps
 1. Clone the repository:
    bash
-   git clone  
+   git clone  https://github.com/Pratibha2126/patients-management-.git
    
 2. Navigate into the project folder:
    bash
