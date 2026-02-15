@@ -53,12 +53,7 @@ Setup Steps
 - Currently, patient data is temporary (can integrate backend later)
 - Form validation, search/filter, and role-based access can be added with more time
 - UI enhancements and error handling improvements
-
-
-
-Screenshots 
-![Login Page](screenshots/login.png)  
-![Patient Form](screenshots/patient-form.png)
+  
 
 
 This project demonstrates:
