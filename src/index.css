@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #1e1e1e;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.card {
+  background: #2a2a2a;
+  width: 300px;
+  padding: 14px;
+  border-radius: 8px;
+}
+
+.card.big {
+  width: 360px;
+}
+
+.patient-title {
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+label {
+  font-size: 11px;
+  color: #aaa;
+  margin-top: 6px;
+  margin-bottom: 2px;
+  display: block;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 6px 8px;
+  font-size: 12.5px;
+  background: #3a3a3a;
+  border: 1px solid #444;
+  border-radius: 4px;
+  color: #fff;
+  outline: none;
+}
+
+input:focus,
+select:focus {
+  border-color: #5aa9ff;
+}
+
+.btn {
+  padding: 7px 12px;
+  font-size: 12.5px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn.primary {
+  background: #5aa9ff;
+  border: none;
+  color: #000;
+}
+
+.btn.secondary {
+  background: #444;
+  border: none;
+  color: #fff;
+}
+
+
+.btn-row {
+  margin-top: 12px;
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.btn-row .btn {
+  flex: 1;
+}
+.view-btn {
+  margin-top: 10px;
+  padding: 7px;
+  font-size: 12.5px;
+  width: 100%;
+}
+
+.logout {
+  margin-top: 10px;
+  font-size: 12px;
+  background: transparent;
+  border: none;
+  color: #ff6b6b;
+  cursor: pointer;
+}
+
+.center {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
